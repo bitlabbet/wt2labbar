@@ -1,0 +1,6 @@
+
+    Skapa en script-fil och koppla den till HTML-filen.
+    Skapa en funktion för initiering samt en funktion som kopplas till en knapp i HTML-koden.
+    Använda variabler och uttryck.
+    Använda datatyperna Number och String.
+    Söka fel med debugger spåra koden i programmet.
