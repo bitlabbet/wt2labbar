@@ -20,14 +20,14 @@ function areaCalculations() {
 	var width;		// bredd i meter
 	var area;		// Yta i kvadratmeter
 	
-	length = Number(inp1Elem.value);
-	width = number(inp2Elem.value);
+	length = Number(inp1Elem.value); 
+	width = Number(inp2Elem.value); //Number() constructor skrivs med stor bokstav, ska vara Number således
 
-	area = length  width;
-	resElem.innerHTML = "<p>Rektangelns area: " + area + "</p>";
+	area = length * width; // Här saknades operatorn för multiplicering. Vi beräknar area med längden * bredden
+	resElem.innerHTML += "<p>Rektangelns area: " + area + "</p>"; //Add & assign-operatorn var fel här märkte jag när jag tittade på koden
 	
-	area = length * widht / 2;
-	resElem.innerHTML += "<p>Triangelns area: " + area + </p>";
+	area = length * width / 2; // här märker jag att variabeln är felstavad
+	resElem.innerHTML += "<p>Triangelns area: " + area + "</p>"; //här saknades ett citattecken för att programmet ska kunna behandla taggen som en sträng
 	
 	area = 3,14 * length * width / 4;
 	resElem.innerHTML += "<p>Ellipsens area: " + area + "</p>";
