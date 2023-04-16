@@ -28,6 +28,9 @@ function areaCalculations() {
     area = (length + 5) * width; //variabeln length adderas med 5
     resElem.innerHTML += "<p>Då längden ökas med 5m blir rektangelns area " + area + " m<sup>2</sup></p>";
     //Egen kod för att beräkna area då längden ökas med 50 procent och bredden ökas med 3 meter
-    area = (length * 1.5) * (width + 3); // längeden * 1.5 för ökning med 50%
+    area = (length * 1.5) * (width + 3); // längden * 1.5 för ökning med 50%
     resElem.innerHTML += "<p>Då längden ökas med 50% och bredden med 3 meter blir rektangelns area " + area + " m<sup>2</sup></p>";
-}
+    // beräkning av triangelns area omvandlat till kvadratfot
+    area = (length * 3.28) * (width * 3.28) / 2;
+    resElem.innerHTML += "<p>Triangelns area blir " + area + " kvadratfot"; 
+} //Slut på funktion

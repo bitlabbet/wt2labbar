@@ -29,7 +29,7 @@ function areaCalculations() {
 	area = length * width / 2; // här märker jag att variabeln är felstavad
 	resElem.innerHTML += "<p>Triangelns area: " + area + "</p>"; //här saknades ett citattecken för att programmet ska kunna behandla taggen som en sträng
 	
-	area = 3,14 * length * width / 4;
+	area = 3.14 * length * width / 4; //kommatecken skrivs med punkt, således skall det vara 3.14 för talet pi
 	resElem.innerHTML += "<p>Ellipsens area: " + area + "</p>";
 	
 } // End areaCalculations
