@@ -16,7 +16,7 @@ window.onload = init; // Se till att init aktiveras då sidan är inladdad
 // Funktionen showFruit som ska avläsa ett tal i det första textfältet (input1)
 function showFruit(inp1Elem) { //skickar med variabel med data från första textfälte. Värden skickas när funktionen anropas.
     let nr = Number(inp1Elem.value); //konverterar till datatypen Number
-    let url; //deklarerar variabeln url som används för att länka rätt bild
+    let url; //deklarerar variabeln url som används för att länka rätt bild .. (TEST)
 
 
     case 1: url = "img/apple.png"; break;
